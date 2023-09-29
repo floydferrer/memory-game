@@ -83,7 +83,7 @@ let memoryGame = document.addEventListener('DOMContentLoaded',
                     newAttempts +=1;
                     if (matches === 4) {
                         setTimeout(function () {
-                            alert('Congrats! You win foo!!');
+                            alert('Congrats! You win!!');
                         }, 100);
                         if (localStorage.attempts === undefined || newAttempts < localStorage.attempts) {
                             bestScore.innerText = `Best Score: ${newAttempts}`;
@@ -137,7 +137,7 @@ let memoryGame = document.addEventListener('DOMContentLoaded',
                     newAttempts +=1;
                     if (matches === 4) {
                         setTimeout(function () {
-                            alert('Congrats! You win foo!!');
+                            alert('Congrats! You win!!');
                         }, 100);
                         if (localStorage.attempts === undefined || newAttempts < localStorage.attempts) {
                             bestScore.innerText = `Best Score: ${newAttempts}`;
@@ -191,7 +191,7 @@ let memoryGame = document.addEventListener('DOMContentLoaded',
                     newAttempts +=1;
                     if (matches === 4) {
                         setTimeout(function () {
-                            alert('Congrats! You win foo!!');
+                            alert('Congrats! You win!!');
                         }, 100);
                         if (localStorage.attempts === undefined || newAttempts < localStorage.attempts) {
                             bestScore.innerText = `Best Score: ${newAttempts}`;
@@ -245,7 +245,7 @@ let memoryGame = document.addEventListener('DOMContentLoaded',
                     newAttempts +=1;
                     if (matches === 4) {
                         setTimeout(function () {
-                            alert('Congrats! You win foo!!');
+                            alert('Congrats! You win!!');
                         }, 100);
                         if (localStorage.attempts === undefined || newAttempts < localStorage.attempts) {
                             bestScore.innerText = `Best Score: ${newAttempts}`;
@@ -299,7 +299,7 @@ let memoryGame = document.addEventListener('DOMContentLoaded',
                     newAttempts +=1;
                     if (matches === 4) {
                         setTimeout(function () {
-                            alert('Congrats! You win foo!!');
+                            alert('Congrats! You win!!');
                         }, 100);
                         if (localStorage.attempts === undefined || newAttempts < localStorage.attempts) {
                             bestScore.innerText = `Best Score: ${newAttempts}`;
@@ -353,7 +353,7 @@ let memoryGame = document.addEventListener('DOMContentLoaded',
                     newAttempts +=1;
                     if (matches === 4) {
                         setTimeout(function () {
-                            alert('Congrats! You win foo!!');
+                            alert('Congrats! You win!!');
                         }, 100);
                         if (localStorage.attempts === undefined || newAttempts < localStorage.attempts) {
                             bestScore.innerText = `Best Score: ${newAttempts}`;
@@ -407,7 +407,7 @@ let memoryGame = document.addEventListener('DOMContentLoaded',
                     newAttempts +=1;
                     if (matches === 4) {
                         setTimeout(function () {
-                            alert('Congrats! You win foo!!');
+                            alert('Congrats! You win!!');
                         }, 100);
                         if (localStorage.attempts === undefined || newAttempts < localStorage.attempts) {
                             bestScore.innerText = `Best Score: ${newAttempts}`;
@@ -461,7 +461,7 @@ let memoryGame = document.addEventListener('DOMContentLoaded',
                     newAttempts +=1;
                     if (matches === 4) {
                         setTimeout(function () {
-                            alert('Congrats! You win foo!!');
+                            alert('Congrats! You win!!');
                         }, 100);
                         if (localStorage.attempts === undefined || newAttempts < localStorage.attempts) {
                             bestScore.innerText = `Best Score: ${newAttempts}`;
