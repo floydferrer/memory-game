@@ -16,14 +16,14 @@ function randomize(values) {
 }
 
 let imgArray = [
-    'url("https://i.pinimg.com/564x/ef/2f/9f/ef2f9ff96b0f0601826e830167ce40ea.jpg")',
-    'url("https://i.pinimg.com/564x/48/14/5a/48145aa835e52fe621d42e24920edc57.jpg")',
-    'url("https://i.pinimg.com/564x/56/5c/67/565c673cc99c53b7f0e2aea040161ab9.jpg")',
-    'url("https://i.pinimg.com/564x/dc/bc/73/dcbc736eb60d6e98feeec9897f958afb.jpg")',
-    'url("https://i.pinimg.com/564x/ef/2f/9f/ef2f9ff96b0f0601826e830167ce40ea.jpg")',
-    'url("https://i.pinimg.com/564x/48/14/5a/48145aa835e52fe621d42e24920edc57.jpg")',
-    'url("https://i.pinimg.com/564x/56/5c/67/565c673cc99c53b7f0e2aea040161ab9.jpg")',
-    'url("https://i.pinimg.com/564x/dc/bc/73/dcbc736eb60d6e98feeec9897f958afb.jpg")'];
+    'url("https://i.pinimg.com/564x/ef/2f/9f/ef2f9ff96b0f0601826e830167ce40ea.jpg") 0% 0% / 100% 100%',
+    'url("https://i.pinimg.com/564x/48/14/5a/48145aa835e52fe621d42e24920edc57.jpg") 0% 0% / 100% 100%',
+    'url("https://i.pinimg.com/564x/56/5c/67/565c673cc99c53b7f0e2aea040161ab9.jpg") 0% 0% / 100% 100%',
+    'url("https://i.pinimg.com/564x/dc/bc/73/dcbc736eb60d6e98feeec9897f958afb.jpg") 0% 0% / 100% 100%',
+    'url("https://i.pinimg.com/564x/ef/2f/9f/ef2f9ff96b0f0601826e830167ce40ea.jpg") 0% 0% / 100% 100%',
+    'url("https://i.pinimg.com/564x/48/14/5a/48145aa835e52fe621d42e24920edc57.jpg") 0% 0% / 100% 100%',
+    'url("https://i.pinimg.com/564x/56/5c/67/565c673cc99c53b7f0e2aea040161ab9.jpg") 0% 0% / 100% 100%',
+    'url("https://i.pinimg.com/564x/dc/bc/73/dcbc736eb60d6e98feeec9897f958afb.jpg") 0% 0% / 100% 100%'];
 
 let newAttempts = 0;
 //Sets best score (defaults to N/A if 1st attempt or Reset Score is pressed)
@@ -44,6 +44,7 @@ let pick1;
 let pick2;
 let matches = 0;
 const randomizeImages = randomize(imgArray);
+let card1BGSize;
 
 let memoryGame = document.addEventListener('DOMContentLoaded',
     function () {
@@ -435,19 +436,16 @@ let memoryGame = document.addEventListener('DOMContentLoaded',
         card8.addEventListener('click', function (event) {
             if (pick1 != undefined && pick2 != undefined) {
                 if (pick1.style != undefined && pick2.style != undefined) {
-                    console.log('test2');
                     return;
                 }
             }
             if (card8.style.background != '' && card8.style.background === 'rgb(25, 100, 126))' || (card8.style.background === randomizeImages[7])) {
-                console.log('test3');
                 return;
             }
             event.target.style.background = randomizeImages[7];
             if (cardPicks === undefined || Object.keys(cardPicks).length === 0) {
                 cardPicks = { pick1: card8 };
                 pick1 = cardPicks.pick1;
-                console.log('test1');
             } else {
                 cardPicks.pick2 = card8;
                 pick2 = cardPicks.pick2;
