@@ -16,14 +16,14 @@ function randomize(values) {
 }
 
 let imgArray = [
-    'url("https://i1.sndcdn.com/avatars-000190650504-jrmv6n-t500x500.jpg")',
-    'url("https://pm1.aminoapps.com/6291/a17bc6bf0e310fb983dccc1331a5e8dfa45b69db_hq.jpg")',
-    'url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/047da9c0-900c-4b16-be2f-94973fb25197/d9m0xfh-1a152bf8-0b0d-4a95-87b4-748f8eb044cf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvaS8wNDdkYTljMC05MDBjLTRiMTYtYmUyZi05NDk3M2ZiMjUxOTcvZDltMHhmaC0xYTE1MmJmOC0wYjBkLTRhOTUtODdiNC03NDhmOGViMDQ0Y2YucG5nIn1dXX0.KqpHbLIH9UXVNmKgWdLXiWWX1wjFjoZ8IhfjuIC3rhg")',
-    'url("https://pm1.aminoapps.com/6263/32eadd7789ec76831e2bb01decb02051b9498006_hq.jpg")',
-    'url("https://i1.sndcdn.com/avatars-000190650504-jrmv6n-t500x500.jpg")',
-    'url("https://pm1.aminoapps.com/6291/a17bc6bf0e310fb983dccc1331a5e8dfa45b69db_hq.jpg")',
-    'url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/047da9c0-900c-4b16-be2f-94973fb25197/d9m0xfh-1a152bf8-0b0d-4a95-87b4-748f8eb044cf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvaS8wNDdkYTljMC05MDBjLTRiMTYtYmUyZi05NDk3M2ZiMjUxOTcvZDltMHhmaC0xYTE1MmJmOC0wYjBkLTRhOTUtODdiNC03NDhmOGViMDQ0Y2YucG5nIn1dXX0.KqpHbLIH9UXVNmKgWdLXiWWX1wjFjoZ8IhfjuIC3rhg")',
-    'url("https://pm1.aminoapps.com/6263/32eadd7789ec76831e2bb01decb02051b9498006_hq.jpg")'];
+    'url("https://i.pinimg.com/564x/ef/2f/9f/ef2f9ff96b0f0601826e830167ce40ea.jpg")',
+    'url("https://i.pinimg.com/564x/48/14/5a/48145aa835e52fe621d42e24920edc57.jpg")',
+    'url("https://i.pinimg.com/564x/56/5c/67/565c673cc99c53b7f0e2aea040161ab9.jpg")',
+    'url("https://i.pinimg.com/564x/dc/bc/73/dcbc736eb60d6e98feeec9897f958afb.jpg")',
+    'url("https://i.pinimg.com/564x/ef/2f/9f/ef2f9ff96b0f0601826e830167ce40ea.jpg")',
+    'url("https://i.pinimg.com/564x/48/14/5a/48145aa835e52fe621d42e24920edc57.jpg")',
+    'url("https://i.pinimg.com/564x/56/5c/67/565c673cc99c53b7f0e2aea040161ab9.jpg")',
+    'url("https://i.pinimg.com/564x/dc/bc/73/dcbc736eb60d6e98feeec9897f958afb.jpg")'];
 
 let newAttempts = 0;
 //Sets best score (defaults to N/A if 1st attempt or Reset Score is pressed)
